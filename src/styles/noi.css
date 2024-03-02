@@ -1,0 +1,64 @@
+.MSOI, .storia, .MSOItalia, .direttivo{
+    padding-inline: 50px;
+    padding-block: 20px;
+    color: rgb(59,59,59);
+}
+
+.MSOI, .direttivo, .headline{
+    color: rgb(255, 255, 255);
+    background-color: #40a2d8;
+}
+.conferenza{
+    background-color: white;
+}
+
+#chiSiamo h1{
+    margin: 0;
+    padding-inline: 50px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+
+.obiettivi{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    color: rgb(59,59,59);
+}
+
+#conferenzaImg{
+    width: 40%;
+}
+
+.conferenza{
+    padding:30px;
+}
+
+#storiaImg{
+    width: 30%;
+}
+
+.regLink{
+    color: white;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+
+.mailLink:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.direttivo{
+    padding-bottom: 35px;
+}
+
+@media (max-width: 790px){
+    #storiaImg, #conferenzaImg{
+        width: 100%;
+    }
+    .obiettivi{
+        flex-direction: none;
+        display: block;
+    }
+}

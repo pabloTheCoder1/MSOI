@@ -1,0 +1,82 @@
+.Home, .noi, .associati{
+    margin-top: 70px;
+}
+
+.subHeadline{
+    font-size: 20px;
+}
+
+.nameAndPic{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainImage{
+    width: 50%;
+}
+
+.nameAndPic h1,.nameAndPic p{
+    color: rgb(255, 255, 255);
+}
+
+.name{
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #40a2d8;
+}
+
+.headline {
+    overflow: hidden; /* Ensure the sliding effect is contained */
+    color: rgb(255, 255, 255);
+}
+
+.slide-in {
+    animation: slideIn 1s forwards; /* Define the sliding animation */
+    opacity: 0; /* Initially hide the headline */
+}
+
+@keyframes slideIn {
+    from {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0;
+    }
+    to {
+    transform: translateX(0); /* Slide in to the center */
+    opacity: 1;
+    }
+}
+
+
+@media (max-width: 790px){
+    .nameAndPic{
+        display: block;
+    }
+    .name{
+        padding: 30px;
+    }
+    .mainImage{
+        width: 100%;
+    }
+}
+
+.presentazione{
+    padding: 50px;
+    background-color: white;
+}
+
+.presentazione p, .presentazione h1{
+    color:rgb(59, 59, 59)
+}
+
+.regLink{
+    color: white;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+
+.regLink:hover{
+    color: white;
+    text-decoration: none;
+}

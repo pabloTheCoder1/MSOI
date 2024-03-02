@@ -1,0 +1,50 @@
+.footer{
+    background-color: #0C2D57;
+    padding: 30px;
+    box-shadow: 4px 2px 4px 4px rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+}
+
+.footer, .footer a{
+    color: white;
+    font-size: 15px;
+}
+
+.infos{
+    width: 33%;
+}
+
+.infos div{
+    display: flex;
+    align-items: center;
+}
+
+.infos div p{
+    margin: 5px;
+}
+
+.infos div img{
+    width: 20px;
+}
+
+.logoSpace{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoSpace img{
+    width: 90px;
+}
+
+@media (max-width: 790px){
+    .footer{
+        display: block;
+    }
+    .logoSpace, .infos{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
