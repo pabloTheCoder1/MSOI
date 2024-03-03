@@ -1,6 +1,9 @@
-.centralSocio, .come{
+.centralSocio, .come, .chiSocio, .perchèSocio{
     background-color: #40a2d8;
+    color: white;
 }
+
+
 
 .associati .headline h1{
     margin: 0;
@@ -9,17 +12,16 @@
     padding-top: 50px;
 }
 
-.chiSocio, .perchèSocio, .come{
+.chiSocio, .perchèSocio, .come ,.rinnovo{
     padding-inline: 50px;
     padding-block: 20px;
-    color: white;
 }
 
 .chiSocio{
     padding-bottom: 40px;
 }
 
-.perchèSocio{
+.perchèSocio, .rinnovo{
     background-color: white;
     color: rgb(59,59,59);
 }
@@ -34,12 +36,12 @@
 
 @media (min-width: 790px){
     .mainSocio .centralSocio{
-        width: 75%;
+        width: 70%;
         display: flex;
         align-items: center;
     }
     .socioImage{
-        width: 25%;
+        width: 30%;
     }
     .mainSocio{
         display: flex;
@@ -64,9 +66,8 @@ button {
     margin: 20px;
     padding: 10px 18px;
     border: unset;
-    color: rgb(59,59,59);
     z-index: 1;
-    background: #e8e8e8;
+    background: #ffffff;
     position: relative;
     font-size: 17px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -90,7 +91,7 @@ button::before {
 }
 
 button a:hover {
-    color: #e8e8e8;
+    color: #ffffff;
 }
 
 button:hover::before {

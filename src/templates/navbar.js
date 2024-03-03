@@ -30,8 +30,8 @@ const Navbar = () => {
           <li><img src={Logo} alt="Logo" className='Logo'/></li>
           <li><a href="/">Home</a></li>
           <li><a href="/noi">Chi siamo</a></li>
-          <li><a href="/associati">Associati</a></li>
           <li><a href="/attività">Attività</a></li>
+          <li><a href="/associati">Associati</a></li>
         </ul>
       </nav>
     </div>

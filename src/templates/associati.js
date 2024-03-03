@@ -83,15 +83,22 @@ const Associati = () => {
               punto informativo tutti i mercoledì nella Stanza 3 al Primo piano della 
               Palazzina Einaudi, adiacente al Campus Luigi Einaudi in Lungo Dora Siena 100, Torino. 
               NON è necessario possedere la tessera per avere accesso ai benefici dello status di Socio.
-            </p>
-          </div>
-          <div className='buttonSpace'>
-            <button>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0MG9LqPW0ul11o77EDlCMlTO_JPd5MJ7eQ_pWACTJxAoxMw/viewform">
-                Associati
-              </a>
-            </button>
-          </div>
+          </p>
+        </div>
+        <div className='buttonSpace'>
+          <button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0MG9LqPW0ul11o77EDlCMlTO_JPd5MJ7eQ_pWACTJxAoxMw/viewform">
+              Associati
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className='rinnovo'>
+        <h1 className='subHeadline'>Rinnovi</h1>
+        <p>Per rinnovare la tua membership ad MSOI Torino, puoi recarti presso il
+           nostro punto informativo settimanale oppure puoi effettuare il pagamento 
+           tramite bonifico nelle stesse modalità indicate per il tesseramento 
+           (non è necessario ricompilare il modulo di contatto).</p>
       </div>
     </div>
   )
